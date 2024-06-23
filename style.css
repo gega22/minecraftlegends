@@ -1,54 +1,32 @@
-@import url('https://fonts.cdnfonts.com/css/minecraft-4');
-body{
-    background: url('background.webp');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#preloader{
-    background:black url(loader.gif) no-repeat center center;
-    background-size: cover;
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
+    margin: 0;
 }
-.huh{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-}
-.start{
-    font-size: 50px;
-    font-family: 'Minecraft', sans-serif;
+
+.container {
     text-align: center;
-    color: aqua;
 }
-.mclegends-link{
-    font-size: 45px;
-    font-family: 'Minecraft', sans-serif;
+
+.content {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
-.discover1{
-    font-size: 45px;
-    font-family: 'Minecraft', sans-serif;  
-    color: aqua;
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
-.discover2{
-    font-size: 45px;
-    font-family: 'Minecraft', sans-serif;
-    color: aqua;
-}
-.discover3{
-    font-size: 25px;
-    font-family: 'Minecraft', sans-serif;
-    color: orangered;
-}
-.discover4{
-    font-size: 25px;
-    font-family: 'Minecraft', sans-serif;
-    color: orangered;
-}
-.discover5{
-    font-size: 25px;
-    font-family: 'Minecraft', sans-serif;
-    color: orangered;
+
+p {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.6;
 }
